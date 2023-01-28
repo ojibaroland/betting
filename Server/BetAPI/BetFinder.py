@@ -15,6 +15,7 @@ class BetFinder:
         self.finalBet = {}
         self.finalPrice = 1.0
         self.__findBestOdds()
+        # 
 
     def __getBestHandicap(self):
         for period in self.bestHCSol:
